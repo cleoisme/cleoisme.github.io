@@ -1,0 +1,11 @@
+baseURL: "https://cleoisme.github.io/"
+title: Cleo is Me
+paginate: 5
+theme: hugo-PaperMod
+
+enableEmoji: true
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
