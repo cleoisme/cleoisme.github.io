@@ -1,0 +1,4 @@
+baseURL = 'https://cleoisme.github.io/'
+languageCode = 'en-us'
+title = 'Cleo is Me'
+theme = 'hugo-PaperMod'
