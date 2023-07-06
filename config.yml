@@ -10,46 +10,46 @@ languages:
     languageName: "English"
     weight: 1
     menu:
-    main:
-      - name: "Home"
-        identifier: "home"
-        weight: 100
-        url: "/"
-      - name: "Experience"
-        identifier: "experience"
-        weight: 200
-        url: "experience/"
-      - name: "Projects"
-        identifier: "projects"
-        weight: 300
-        url: "projects/"
-      - name: "Education"
-        identifier: "education"
-        weight: 400
-        url: "education/"
-      - name: "Extended Learning"
-        identifier: "extlearning"
-        weight: 500
-        url: "extlearning/"
-      - name: "Certificates"
-        identifier: "certificates"
-        weight: 100
-        url: "extlearning/certificates/"
-        parent: "extlearning"
-      - name: "Books"
-        identifier: "books"
-        weight: 200
-        url: "extlearning/books/"
-        parent: "extlearning"
-      - name: "About"
-        identifier: "about"
-        weight: 600
-        url: "about/"
+      - main:
+          - name: "Home"
+            identifier: "home"
+            weight: 100
+            url: "/"
+          - name: "Experience"
+            identifier: "experience"
+            weight: 200
+            url: "experience/"
+          - name: "Projects"
+            identifier: "projects"
+            weight: 300
+            url: "projects/"
+          - name: "Education"
+            identifier: "education"
+            weight: 400
+            url: "education/"
+          - name: "Extended Learning"
+            identifier: "extlearning"
+            weight: 500
+            url: "extlearning/"
+          - name: "Certificates"
+            identifier: "certificates"
+            weight: 100
+            url: "extlearning/certificates/"
+            parent: "extlearning"
+          - name: "Books"
+            identifier: "books"
+            weight: 200
+            url: "extlearning/books/"
+            parent: "extlearning"
+          - name: "About"
+            identifier: "about"
+            weight: 600
+            url: "about/"
 
 params:
   author: "Cleo"
   description: "Call me Cleo"
-  profilePicture: ["images/profile.jpg"]
+  profilePicture: "images/profile.jpg"
   socialIcons:
     - icon: "fab fa-linkedin"
       title: "Linkedin"
