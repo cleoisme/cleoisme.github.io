@@ -1,7 +1,9 @@
 ---
-title: "Welcome"
-draft: false
+title: Home
+draft: true
 ---
+
+Hello, I'm a ferocious lion.
 
 This is the personal website for Cleo.
 
