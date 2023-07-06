@@ -50,6 +50,8 @@ params:
   author: "Cleo"
   description: "Call me Cleo"
   profilePicture: "images/profile.jpg"
+  copyright: "2020-{{ YEAR }}"
+  favicon: "favicons/"
   socialIcons:
     - icon: "fab fa-linkedin"
       title: "Linkedin"
