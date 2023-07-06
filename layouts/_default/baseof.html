@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-    <title>{{ .Page.Title }}</title>
+    {{ partial "meta.html" . }}
   </head>
 
   <body>
     {{ block "main" . }} {{ end }}
   </body>
+  {{ partial "nav.html" }} {{ partial "footer.html" . }}
 </html>
