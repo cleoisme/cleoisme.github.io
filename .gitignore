@@ -21,9 +21,10 @@ _testmain.go
 
 *.exe
 *.test
+*.lock
 
 /public
 /themes
-.DS_Store
 
-*.lock
+# mac
+**/.DS_Store
