@@ -1,6 +1,6 @@
 ---
-title: Extended Learning
+title: Resources
 draft: true
 ---
 
-Extended Learning
+Resources to support my fellow developers.

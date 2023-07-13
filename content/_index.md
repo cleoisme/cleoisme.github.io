@@ -1,7 +1,7 @@
 ---
 title: Home
 draft: true
-hide_footer: false
+hide_footer: true
 ---
 
 Hello, I'm a ferocious lion.
