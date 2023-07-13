@@ -1,7 +1,9 @@
 ---
 title: Home
-draft: true
+author: cleo
+description: Experience description
 hide_footer: true
+draft: true
 ---
 
 Hello, I'm a ferocious lion.
