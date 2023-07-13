@@ -33,3 +33,9 @@
   weight = 600
   identifier = "contact"
   url = "/contact/"
+
+  [[footer]]
+  name = "All rights reserved"
+  weight = 1
+  identifier = "rights"
+  url = "/"
