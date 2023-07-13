@@ -1,0 +1,19 @@
+baseURL= "https://cleoisme.github.io/"
+languageCode= "en"
+DefaultContentLanguage= "en"
+title="Website of Cleo"
+paginate= 5
+theme="anatole"
+
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
+
+# Syntax highlighting
+pygmentsUseClasses = true   
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+# Localized dates requires Hugo version 0.87.0
+localizedDates= false
+

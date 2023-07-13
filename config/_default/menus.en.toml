@@ -1,0 +1,41 @@
+  [[main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[main]]
+  name = "Experience"
+  weight = 200
+  identifier = "experience"
+  url = "/experience/"
+
+  [[main]]
+  name = "Projects"
+  weight = 300
+  identifier = "projects"
+  url = "/projects/"
+
+  [[main]]
+  name = "Education"
+  weight = 400
+  identifier = "education"
+  url = "/education/"
+
+  [[main]]
+  name = "Resources"
+  weight = 500
+  identifier = "resources"
+   url = "/resources/"
+
+  [[main]]
+  name = "Contact"
+  weight = 600
+  identifier = "contact"
+  url = "/contact/"
+
+  [[footer]]
+  name = "imprint"
+  weight = 1
+  identifier = "imprint"
+  url = "/imprint/"
