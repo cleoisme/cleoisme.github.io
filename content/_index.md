@@ -2,7 +2,6 @@
 title: Home
 author: cleo
 description: Experience description
-hide_footer: true
 draft: true
 ---
 

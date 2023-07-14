@@ -1,10 +1,11 @@
 ---
-title: Gatech
+title: 'Georgia Institute of Technology'
 author: cleo
 description: Georgia Institute of Technology
 draft: true
+startDate: '2021-09-01'
+endDate: '2024-09-01'
 ---
 
-Georgia Institute of Technology
-Master of Computer Science - MSc, Machine LearningMaster of Computer Science - MSc, Machine Learning
+Master of Computer Science - MSc, Machine Learning
 2021 - 2024

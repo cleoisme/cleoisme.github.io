@@ -3,6 +3,8 @@ title: Wildbunch
 author: cleo
 description: Wildbunch Software
 draft: true
+startDate: '2019-09-01'
+endDate: '2020-09-01'
 ---
 
 - WildBunch Software

@@ -11,16 +11,16 @@
   url = "/experience/"
 
   [[main]]
-  name = "Projects"
-  weight = 300
-  identifier = "projects"
-  url = "/projects/"
-
-  [[main]]
   name = "Education"
-  weight = 400
+  weight = 300
   identifier = "education"
   url = "/education/"
+
+  [[main]]
+  name = "Projects"
+  weight = 400
+  identifier = "projects"
+  url = "/projects/"
 
   [[main]]
   name = "Resources"
