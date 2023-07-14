@@ -3,6 +3,7 @@ title: Locarise
 author: cleo
 description: Locarise
 draft: true
+tags: ["experience"]
 startDate: '2019-03-01'
 endDate: '2019-06-01'
 ---

@@ -3,6 +3,7 @@ title: BCCHR
 author: cleo
 description: BC Children's Hospital Research Institute
 draft: true
+tags: ["experience"]
 startDate: '2018-05-01'
 endDate: '2018-09-01'
 ---

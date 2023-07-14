@@ -25,6 +25,7 @@ _testmain.go
 
 /public
 /themes
+/resources
 
 # mac
 **/.DS_Store

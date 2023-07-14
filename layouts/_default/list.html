@@ -9,19 +9,9 @@
   {{ range .Pages }}
   <ul class="archive__list">
     <li class="archive__list-item">
-      <a
-        class="archive__list-title"
-        href="{{ .RelPermalink }}"
-        title="{{ .Title }}"
-        >{{ .Title }}</a
-      >
+      <title class="archive__list-title">{{ .Title }}</title>
       <div class="archive__list-date">
-        {{ if isset .Site.Params "listdateformat" }} {{ if
-        .Site.Params.localizedDates }} {{ time.Format
-        .Site.Params.listDateFormat .Date }} {{ else }} {{ .Date.Format
-        .Site.Params.listDateFormat }} {{ end }} {{ else }} {{ if
-        .Site.Params.localizedDates }} {{ time.Format "Jan 2" .Date }} {{ else
-        }} {{ .Date.Format "Jan 2" }} {{ end }} {{ end }}
+          {{ printf "%s - %s" (dateFormat "Jan 2006" .Params.startDate) (dateFormat "Jan 2006" .Params.endDate) }}
       </div>
     </li>
   </ul>
