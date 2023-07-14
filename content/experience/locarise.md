@@ -1,11 +1,14 @@
 ---
-title: Locarise
+title: "Locarise"
 author: cleo
 description: Locarise
-draft: true
-tags: ["experience"]
 startDate: '2019-03-01'
 endDate: '2019-06-01'
+jobTitle: "Software Developer"
+location: "Tokyo, Japan"
+
+draft: true
+tags: ["experience"]
 ---
 
 Software Developer

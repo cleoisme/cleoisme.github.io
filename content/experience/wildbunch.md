@@ -1,11 +1,14 @@
 ---
-title: Wildbunch
+title: "Wildbunch Software"
 author: cleo
 description: Wildbunch Software
-draft: true
-tags: ["experience"]
 startDate: '2019-09-01'
 endDate: '2020-09-01'
+jobTitle: "Full-stack Developer"
+location: "Vancouver, British Columbia, Canada"
+
+draft: true
+tags: ["experience"]
 ---
 
 - WildBunch Software

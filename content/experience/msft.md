@@ -1,11 +1,14 @@
 ---
-title: Microsoft
+title: "Microsoft"
 author: cleo
 description: Microsoft Teams
-draft: true
-tags: ["experience"]
 startDate: '2021-03-01'
 endDate: '2022-07-01'
+jobTitle: "Software Engineer"
+location: "Vancouver, British Columbia, Canada"
+
+draft: true
+tags: ["experience"]
 ---
 
 Software Engineer
