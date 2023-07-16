@@ -16,7 +16,12 @@
           {{ printf "%s - %s" ( .Params.startDate) ( .Params.endDate) }}
       </div>
     </li>
+    {{ if eq .Section "education" }}
     <div> {{.Params.degree}}, {{.Params.specialization}}</div>
+    {{ else if eq .Section "experience" }}
+    <div> {{.Params.location}}</div>
+    <div> {{.Params.jobTitle}} · {{.Params.jobType}}</div>
+    {{ end }}
     <div> {{.Content}}</div>
   </ul>
   {{ end }}
