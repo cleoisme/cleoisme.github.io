@@ -6,8 +6,12 @@
       animated fadeInDown
     {{ end }}"
 >
-  <h1>{{ .Title }}</h1>
-  <p class="post__footer" style="font-size: smaller;"> {{.Description}}</p>
+  <div>  
+    <h1>{{ .Title }}</h1>
+    <div class="post__footer" style="font-size: smaller;">  
+      <p> {{.Description}} </p>
+    </div>
+  </div>
   {{ range .Pages }}
   <ul class="archive__list">
     <li class="archive__list-item">

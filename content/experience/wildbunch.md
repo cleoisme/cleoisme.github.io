@@ -12,7 +12,8 @@ draft: true
 skills: [ "TypeScript", "GraphQL", "React", "Jest", "MongoDB","Jest", "node","react", "express", "AWS"]
 ---
 
-- Led a site-wide codebase migration from WordPress to React/Redux. Developed a WordPress Plugin to enable the old WordPress platform to read/write to the new MongoDB database while the new one is under construction. Successfully executed a complete migration with zero incidents.
-- Integrated GraphQL into existing APIs, reducing average page load time by 500ms.
-- Developed individual React component tests using Jest for better development lifecycle and future maintenance.
-- Developed microservices using Node/Express to pull sports information from Press Association API. Designed a MongoDB schema to store raw and cleaned data. Deployed a scheduled data pipeline to retrieve and process new stats weekly using AWS Lambda and Cloudwatch.
+- Frontend codebase migration.
+- Plugin development as a support to read/write to the database. 
+- API integration.
+- Unit testing and maintainance. 
+- Microservice design, development, and deployment on AWS.

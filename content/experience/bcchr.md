@@ -12,3 +12,5 @@ draft: true
 skills: ["wordpress", "SQL", "JavaScript","HTML5/CSS3"]
 ---
 
+- Website frontend improvement and customization.
+- Frontend and backend integration.

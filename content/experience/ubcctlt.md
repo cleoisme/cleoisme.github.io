@@ -11,3 +11,5 @@ location: "Vancouver, British Columbia, Canada"
 draft: true
 skills: [ "JavaScript","HTML5/CSS3"]
 ---
+- Frontend web developemnt.
+- Video Player navigation bar customization.

@@ -12,8 +12,7 @@ draft: true
 skills: [ "TypeScript", "GraphQL", "React", "Jest"]
 ---
 
-
-- Developed Multi-Tenant-Multi-Account functionality, enabling a calling service to be shared across multiple accounts from multiple tenants. Contributed to fulfilling the second top request from the Teams feedback portal.
-- Implemented a new call authentication flow using AAD CAE/Pop tokens, replacing bearer tokens to improve the calling security. Worked with partner teams to develop integration and E2E Testing.
-- Overhauled unit tests from a monolithic function to modularized tests. Migrated over 3,500 lines of tests from Jasmine to Jest, improving code readability and increasing rendering speed by 15%.
-- Added granular telemetry and monitoring to existing APIs, providing Teams with a more detailed view of API performance and improving the overall debugging experience.
+- Developed the Teams MTMA(Multi-Tenant-Multi-Account) functionality.
+- Improved the authentication flow for Teams calling.
+- Incorporated telemetry and conducting analysis for enhanced insights.
+- Migrated unit tests.

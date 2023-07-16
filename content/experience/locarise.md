@@ -11,4 +11,6 @@ location: "Tokyo, Japan"
 draft: true
 skills: ["SQL", "Hugo", "Python", "HTML5/CSS3", "JavaScript"]
 ---
-Web codebase reconstruction, SEO improvement, QA tests in Python.Web codebase reconstruction, SEO improvement, QA tests in Python.
+- Frontend codebase reconstruction.
+- SEO improvement.
+- QA tests.
