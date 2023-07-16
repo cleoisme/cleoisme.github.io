@@ -6,14 +6,18 @@
       animated fadeInDown
     {{ end }}"
 >
+  <h1>{{ .Title }}</h1>
+  <p class="post__footer" style="font-size: smaller;"> {{.Description}}</p>
   {{ range .Pages }}
   <ul class="archive__list">
     <li class="archive__list-item">
-      <title class="archive__list-title">{{ .Title }}</title>
+      <strong><a class="archive__list-title" href="{{ .Params.url }}">{{ .Title }}</a></strong>
       <div class="archive__list-date">
-          {{ printf "%s - %s" (dateFormat "Jan 2006" .Params.startDate) (dateFormat "Jan 2006" .Params.endDate) }}
+          {{ printf "%s - %s" ( .Params.startDate) ( .Params.endDate) }}
       </div>
     </li>
+    <div> {{.Params.degree}}, {{.Params.specialization}}</div>
+    <div> {{.Content}}</div>
   </ul>
   {{ end }}
 </div>
