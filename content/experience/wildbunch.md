@@ -2,6 +2,7 @@
 title: "Wildbunch Software"
 author: cleo
 description: "Frontend-Backend integration, API development, CMS customization, web upgrading and migration."
+url: "//racingedge.com/"
 startDate: '2019-09'
 endDate: '2020-09'
 jobTitle: "Full-stack Developer"

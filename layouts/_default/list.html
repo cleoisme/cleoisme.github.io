@@ -12,10 +12,10 @@
       <p> {{.Description}} </p>
     </div>
   </div>
-  {{ range .Pages }}
+  {{ range (sort .Pages "Params.startDate").Reverse}}
   <ul class="archive__list">
     <li class="archive__list-item">
-      <strong><a class="archive__list-title" href="{{ .Params.url }}">{{ .Title }}</a></strong>
+      <strong><a class="archive__list-title" href="{{ .Params.url }}" target="_blank">{{ .Title }}</a></strong>
       <div class="archive__list-date">
           {{ printf "%s - %s" ( .Params.startDate) ( .Params.endDate) }}
       </div>

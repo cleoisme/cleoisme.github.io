@@ -2,6 +2,7 @@
 title: "Locarise"
 author: cleo
 description: Locarise
+url: "//locarise.com/"
 startDate: '2019-03'
 endDate: '2019-06'
 jobTitle: "Software Developer"

@@ -2,6 +2,7 @@
 title: "BC Children's Hospital Research Institute"
 author: cleo
 description: BC Children's Hospital Research Institute
+url: "//www.bcchr.ca/"
 startDate: '2018-05'
 endDate: '2018-09'
 jobTitle: "IT/IM Assistant"

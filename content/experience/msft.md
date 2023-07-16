@@ -2,6 +2,7 @@
 title: "Microsoft"
 author: cleo
 description: "Teams Calling, Meeting and Devices.Teams Calling, Meeting and Devices."
+url: "//www.microsoft.com/en-us/microsoft-teams"
 startDate: '2021-03'
 endDate: '2022-07'
 jobTitle: "Software Engineer"
