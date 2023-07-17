@@ -32,6 +32,6 @@ This section focuses on job search related topics, including resume editing, the
 ### Industrial Practices
 In this chapter, I will share my personal industry experience, provide insights into industry standards, and share valuable recommendations I've received from experienced professionals.
 - Suggrested Reading:
-  - [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) by Robert C. Martin
-  - [Clean Architecture: A Craftsman's Guide to Software Structure and Design](https://www.amazon.com/dp/0134494164) by Robert C. 
-  - [Patterns, Principles, and Practices of Domain-Driven Design](https://www.amazon.com/Patterns-Principles-Practices-Domain-Driven-Design/dp/1118714709) by Scott Millett and Nick Tune
+  - ["Clean Code: A Handbook of Agile Software Craftsmanship"](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) by Robert C. Martin
+  - ["Clean Architecture: A Craftsman's Guide to Software Structure and Design"](https://www.amazon.com/dp/0134494164) by Robert C. 
+  - ["Patterns, Principles, and Practices of Domain-Driven Design"](https://www.amazon.com/Patterns-Principles-Practices-Domain-Driven-Design/dp/1118714709) by Scott Millett, Nick Tune
