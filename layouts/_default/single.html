@@ -3,7 +3,7 @@
   <div class="post__content">
     <h1>{{ title .Title }}</h1>
       {{- if (eq .Params.contact true) -}} 
-        {{.Params.description}}
+        {{.Content }}
         {{- partial "contact.html" -}} 
       {{- end -}} 
   </div>

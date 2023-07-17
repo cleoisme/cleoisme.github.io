@@ -1,6 +1,6 @@
 
 <div class="contact-form">
-  <form class="form-style" method="POST" action="{{ .Site.Params.contactFormAction }}" data-toggle="validator">
+  <form id="contactForm" class="form-style" method="POST" action="https://formspree.io/f/mleyddee" data-toggle="validator">
     <ul>
       <li>
         <label for="username">{{ i18n "name" }}</label>
@@ -25,4 +25,12 @@
       </li>
     </ul>
   </form>
+  <script>
+    function resetForm() {
+      document.getElementById("contactForm").reset();
+    }
+
+    // Call the resetForm() function when the page is loaded
+    window.addEventListener("load", resetForm);
+  </script>
 </div>
