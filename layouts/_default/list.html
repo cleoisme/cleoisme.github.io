@@ -12,6 +12,9 @@
       <p> {{.Description}} </p>
     </div>
   </div>
+  {{ if eq .Section "resources" }}
+  <div> {{.Content}}</div>
+  {{ end }}
   {{ range (sort .Pages "Params.startDate").Reverse}}
   <ul class="archive__list">
     <li class="archive__list-item">

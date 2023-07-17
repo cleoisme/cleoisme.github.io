@@ -1,0 +1,15 @@
+<div id="wordcloud"></div>
+
+<script src="{{ "js/wordcloud2.js" | relURL }}"></script>
+<script>
+  // Data for the word cloud
+  const words = [
+    { text: 'apple', weight: 10 },
+    { text: 'banana', weight: 5 },
+    { text: 'orange', weight: 8 },
+    // Add more words and weights as needed
+  ];
+
+  // Generate the word cloud
+  WordCloud(document.getElementById('wordcloud'), { list: words });
+</script>
