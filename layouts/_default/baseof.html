@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html
-  dir="{{ .Site.Language.LanguageDirection | default "ltr" }}"
-  lang="{{- site.Language.Lang -}}"
   data-theme="{{- .Site.Params.displayMode -}}"
   {{ if eq .Site.Params.displayMode "dark" }}
     class="html theme--dark"
@@ -32,11 +30,7 @@
         {{- block "main" . }}{{- end }}
       </main>
     </div>
-
-    {{- if (eq .Site.Params.simpleAnalytics.enable true) -}}
-      {{- partial "analytics/simpleanalytics.html" . -}}
-    {{- end -}}
+    <script src = "https://d3js.org/d3.v6.min.js"></script> 
+    <script src = "js/visualization.js"></script>
   </body>
-  <script src = "https://d3js.org/d3.v6.min.js"></script> 
-  <script src = "js/visualization.js"></script>
 </html>

@@ -1,11 +1,5 @@
 {{ define "main" }}
-<div
-  class="archive {{ with .Site.Params.doNotLoadAnimations }}
-      .
-    {{ else }}
-      animated fadeInDown
-    {{ end }}"
->
+<div class="archive {{ with .Site.Params.doNotLoadAnimations }} {{ else }} animated fadeInDown {{ end }}">
   <div>  
     <h1>{{ .Title }}</h1>
     <div class="post__footer" style="font-size: smaller;">  

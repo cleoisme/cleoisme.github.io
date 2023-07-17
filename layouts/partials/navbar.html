@@ -1,10 +1,4 @@
-<div
-  class="{{ with .Site.Params.doNotLoadAnimations }}
-    .
-  {{ else }}
-    animated fadeInDown
-  {{ end }}"
->
+<div class="{{ with .Site.Params.doNotLoadAnimations }} {{ else }} animated fadeInDown {{ end }}">
   <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
     <span aria-hidden="true" class="navbar-burger__line"></span>
     <span aria-hidden="true" class="navbar-burger__line"></span>
