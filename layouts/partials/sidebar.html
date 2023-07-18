@@ -1,6 +1,7 @@
 <div class="sidebar{{ with .Site.Params.doNotLoadAnimations }}{{ else }} animated fadeInDown {{ end }}">
   <div class="sidebar__content">
     <div class="sidebar__introduction">
+      <!-- TODO: Update the profile pic using Midjourney -->
       <img
         class="sidebar__introduction-profileimage"
         src="{{ .Site.Params.profilePicture | relURL }}"

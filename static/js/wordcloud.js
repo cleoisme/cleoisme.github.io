@@ -21,13 +21,13 @@
       { text: "Object-oriented Modeling", size: 10 },
       { text: "Machine Learning", size: 5 },
       { text: "Computer Engineering", size: 5 }
-      // Add more words and sizes as needed
     ];
 
     // Set up the color scale
     const colorScale = d3.scaleOrdinal(d3.schemeCategory10.map(color => d3.color(color).darker(0.7)));
 
     // Get the minimum and maximum size values from the word data
+    // TODO: Update the font size to be viewport-related instead of its minimum/maximum
     const sizeRange = d3.extent(words, d => d.size);
 
     // Set up the font size scale based on the size range
@@ -38,6 +38,7 @@
     // Set up the word cloud layout
     const layout = d3.layout
       .cloud()
+      // TODO: Update the size to dynamically change along with its container size
       .size([800, 400]) // Set the size of the word cloud container
       .words(words)
       .padding(5) // Adjust the padding between words
@@ -47,16 +48,13 @@
 
     // Draw the word cloud
     function drawWordCloud(words) {
-
-      const svg = d3.select("#wordCloud")
-      .append("svg")
-      .attr("width", layout.size()[0])
-      .attr("height", layout.size()[1]);
-
-      const wordCloud = svg.append("g")
-      .attr("transform", `translate(${layout.size()[0] / 2},${layout.size()[1] / 2})`); // Center the word cloud
-
-      wordCloud.selectAll("text")
+      d3.select("#wordCloud")
+        .append("svg")
+        .attr("width", layout.size()[0])
+        .attr("height", layout.size()[1])
+        .append("g")
+        .attr("transform", `translate(${layout.size()[0] / 2},${layout.size()[1] / 2})`)
+        .selectAll("text")
         .data(words)
         .enter()
         .append("text")
