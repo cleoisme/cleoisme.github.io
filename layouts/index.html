@@ -1,9 +1,9 @@
 
 {{ define "main" }}
-<div class="post {{ with .Site.Params.doNotLoadAnimations }}{{ else }} animated fadeInDown {{ end }}">
+<div id="visualisation" class="post {{ with .Site.Params.doNotLoadAnimations }}{{ else }} animated fadeInDown {{ end }}">
 <h1>{{ .Title }}</h1>
 <div style="font-size: smaller;">  
   <p> {{.Description}} </p>
-  <div class="visualisation"></div>
+  <div id="wordCloud"></div>
 </div>
 {{ end }}
