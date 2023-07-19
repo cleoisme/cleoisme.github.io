@@ -12,6 +12,6 @@ location: "Vancouver, British Columbia, Canada"
 draft: true
 skills: ["wordpress", "SQL", "JavaScript","HTML5/CSS3"]
 ---
-
+[BC Children's Hospital Research Institute](https://www.bcchr.ca/) is a world-class research organization that saves and transforms the lives of children in BC and beyond.
 - Website frontend improvement and customization.
 - Frontend and backend integration.
