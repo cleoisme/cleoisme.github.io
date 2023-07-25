@@ -7,9 +7,9 @@ profilePicture = "images/profile.jpg"
 keywords = ""
 favicon = "favicons/"
 # example ["css/custom.css"]
-customCss = ["css/custom.css"]
+customCss = []
 # example ["js/custom.js"]
-customJs = [] 
+customJs = ["https://cdn.jsdelivr.net/npm/d3@7", "https://rawgit.com/jasondavies/d3-cloud/master/build/d3.layout.cloud.js"] 
 mainSections = ["home"]
 images = ["images/site-feature-image.png"]
 doNotLoadAnimations = false
