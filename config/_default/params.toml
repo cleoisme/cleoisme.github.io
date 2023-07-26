@@ -7,7 +7,7 @@ profilePicture = "images/profile.jpg"
 keywords = ""
 favicon = "favicons/"
 # example ["css/custom.css"]
-customCss = []
+customCss = ["css/custom.css"]
 # example ["js/custom.js"]
 customJs = ["https://cdn.jsdelivr.net/npm/d3@7", "https://rawgit.com/jasondavies/d3-cloud/master/build/d3.layout.cloud.js"] 
 mainSections = ["home"]

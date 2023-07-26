@@ -1,0 +1,11 @@
+#wordcloud {
+  position: relative;
+}
+
+.contentContainer {
+  margin-bottom: 40px;
+}
+
+.contentContainer p {
+  line-height: 1.4em;
+}
