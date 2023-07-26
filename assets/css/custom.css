@@ -9,3 +9,16 @@
 .contentContainer p {
   line-height: 1.4em;
 }
+
+.contentContainer img {
+  width: 40%;
+  height: 200px;
+  height: auto;
+  object-fit: cover;
+  display: inline-block;
+  position: relative;
+  margin-right: 1em;
+  border-radius: 10px;
+  filter: saturate(50%);
+  flex: 1;
+}
