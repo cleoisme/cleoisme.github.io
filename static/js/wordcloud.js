@@ -35,11 +35,14 @@
       .domain(sizeRange)
       .range([12, 36]); // Adjust the range of font sizes as needed
 
+    // Get the wordCloudContainer element
+    const wordCloudContainer = document.getElementById('wordCloudContainer');
+
     // Set up the word cloud layout
     const layout = d3.layout
       .cloud()
       // TODO: Update the size to dynamically change along with its container size
-      .size([800, 400]) // Set the size of the word cloud container
+      .size([wordCloudContainer.clientWidth, 400]) // Set the size of the word cloud container
       .words(words)
       .padding(5) // Adjust the padding between words
       .rotate(0) // Set word rotation angle (in degrees)
@@ -67,3 +70,4 @@
 
     // Start generating the word cloud layout
     layout.start();
+
