@@ -17,12 +17,6 @@
   url = "/education/"
 
   [[main]]
-  name = "Projects"
-  weight = 400
-  identifier = "projects"
-  url = "/projects/"
-
-  [[main]]
   name = "Resources"
   weight = 500
   identifier = "resources"
