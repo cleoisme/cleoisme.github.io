@@ -29,3 +29,6 @@ _testmain.go
 
 # mac
 **/.DS_Store
+
+# vscode
+.vscode/
