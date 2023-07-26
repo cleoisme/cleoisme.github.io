@@ -7,7 +7,7 @@
     </div>
   </div>
   {{ if eq .Section "resources" }}
-  <div> {{.Content}}</div>
+  <div class="contentContainer"> {{.Content}}</div>
   {{ end }}
   {{ range (sort .Pages "Params.startDate").Reverse}}
   <ul class="archive__list">
