@@ -8,7 +8,7 @@ endDate: '2018-05'
 specialization: "Computer Engineering"
 degree: "Bachelor of Applied Science - BASc."
 
-draft: true
+draft: false
 tags: ["education"]
 ---
 - Activities and societies: nwHacks 2018, UBC Work-learn Program

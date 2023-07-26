@@ -9,7 +9,7 @@ jobTitle: "Software Developer"
 jobType: "Intern"
 location: "Tokyo, Japan"
 
-draft: true
+draft: false
 skills: ["SQL", "Hugo", "Python", "HTML5/CSS3", "JavaScript"]
 ---
 [Locarise](https://locarise.com/) is an innovative startup with a strong focus on leveraging data to enable physical space intelligence. Their mission is to assist brick-and-mortar stores in gaining a deeper understanding of their guests and optimizing their turnover. 

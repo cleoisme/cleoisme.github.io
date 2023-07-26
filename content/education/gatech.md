@@ -8,7 +8,7 @@ endDate: 'Present'
 specialization: "Machine Learning"
 degree: "Master of Computer Science - MSc."
 
-draft: true
+draft: false
 tags: ["education"]
 ---
 - cGPA: 4/4.33

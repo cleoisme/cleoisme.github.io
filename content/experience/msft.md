@@ -9,7 +9,7 @@ jobTitle: "Software Engineer"
 jobType: "Permanent Full-time"
 location: "Vancouver, British Columbia, Canada"
 
-draft: true
+draft: false
 skills: [ "TypeScript", "GraphQL", "React", "Jest"]
 ---
 [Teams Calling, Meeting, and Devices](https://www.microsoft.com/en-us/microsoft-teams/group-chat-software) (CMD) is responsible for the front-end implementation of Calling, Meeting, and Devices features on Teams' web and application interfaces. This includes handling the interaction logic between Teams and customers, as well as communicating with the Skype back-end APIs.
