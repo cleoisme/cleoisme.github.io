@@ -8,8 +8,3 @@ endDate: ''
 draft: true
 skills: ["wordpress", "SQL", "JavaScript","HTML5/CSS3"]
 ---
-- Milestone 1: Static web
-- Milestone 2: Database Design and Authentication Setup
-- Milestone 3: Content Management System and Authentication Setup
-- Milestone 4: Frontend and Backend Integration
-- Milestone 5: Deployment and security
