@@ -59,3 +59,8 @@ In this chapter, I will share my personal industry experience, provide insights 
   - ["Patterns, Principles, and Practices of Domain-Driven Design"](https://www.amazon.com/Patterns-Principles-Practices-Domain-Driven-Design/dp/1118714709) by Scott Millett, Nick Tune
   - ["Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable System"](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321/ref=sr_1_3?crid=2NIP8LWVI5ACR&keywords=distributed+systems&qid=1665979709&qu=eyJxc2MiOiI0Ljg1IiwicXNhIjoiNC40MyIsInFzcCI6IjQuMTYifQ%3D%3D&sprefix=distr%2Caps%2C2118&sr=8-3) by Martin Kleppmann
 - Software Lifecycle
+
+### You Can't See the Forest for the Trees
+ - [App Economy Insights](https://www.appeconomyinsights.com/): How they make money
+ - ["Poor Economics: A Radical Rethinking of the Way to Fight Global Poverty"](https://www.amazon.ca/Poor-Economics-Radical-Rethinking-Poverty/dp/1610390938) by Abhijit V. Banerjee, Esther Duflo
+ - ["Guns, Germs, and Steel: The Fates of Human Societies"](https://www.amazon.ca/Guns-Germs-Steel-Fates-Societies/dp/0393354326/ref=sr_1_1?crid=1S10L3Y0VKB61&keywords=guns%2C+germs%2C+and+steel+the+fates+of+human+societies&qid=1691011228&s=books&sprefix=guns+%2Cstripbooks%2C172&sr=1-1) by Jared Diamond
