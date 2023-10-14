@@ -29,7 +29,7 @@ This website was built using the following technologies:
 - Hugo
 - D3.js
 - HTML5/CSS3
-- 
+
 ## Planning ahead
 
 - Milestone 1: Static web
