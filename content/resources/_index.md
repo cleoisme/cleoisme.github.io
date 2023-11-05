@@ -7,7 +7,7 @@ draft: false
 ---
 I have categorized the content into three sections: CS Fundamentals, Job Hunting, and Industrial Practices. This approach offers you various entry points and perspectives to explore the field of Computer Science - ultimately, they are all interconnected.
 
-### CS Fundamentals
+### 文 - CS Fundamentals
 This section lists fundamental and advanced subjects covered in the Computer Science curriculum at most schools. Although these topics may not have an immediate impact on your programming skills or career growth, they are essential for fostering a profound comprehension of how computers operate. Consider learning these subjects as a long-term value investment that will significantly contribute to your future without you realizing it.
 
 |Fundamental                              |Advanced                     |
@@ -22,7 +22,7 @@ This section lists fundamental and advanced subjects covered in the Computer Sci
 |Computer Communications/Network          | |
 |Database Systems Concepts & Design       | |
 
-### Job Hunting
+### 技 - Job Hunting
 This section focuses on job search related topics, including resume editing, the interview process, types of companies, job search platforms, and more. Technical assessment holds significant importance within this context. Job searching requires considerable effort, and the preparation involved is relatively separate from the other two sections. 
 
 0. Resume Writing:
@@ -45,7 +45,7 @@ This section focuses on job search related topics, including resume editing, the
 4. Behavioral Questions/Leadership Principals
 5. Offer Stage
 
-### Industrial Practices
+### 藝 - Industrial Practices
 In this chapter, I will share my personal industry experience, provide insights into industry standards, and share valuable recommendations I've received from experienced professionals.
 - Version Control: [Git-it Guide](http://jlord.us/git-it/)
 - Debugging Tools:
@@ -60,7 +60,7 @@ In this chapter, I will share my personal industry experience, provide insights 
   - ["Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable System"](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321/ref=sr_1_3?crid=2NIP8LWVI5ACR&keywords=distributed+systems&qid=1665979709&qu=eyJxc2MiOiI0Ljg1IiwicXNhIjoiNC40MyIsInFzcCI6IjQuMTYifQ%3D%3D&sprefix=distr%2Caps%2C2118&sr=8-3) by Martin Kleppmann
 - Software Lifecycle
 
-### You Can't See the Forest for the Trees
+### 道 - You Can't See the Forest for the Trees
  - [App Economy Insights](https://www.appeconomyinsights.com/): How they make money
  - ["Poor Economics: A Radical Rethinking of the Way to Fight Global Poverty"](https://www.amazon.ca/Poor-Economics-Radical-Rethinking-Poverty/dp/1610390938) by Abhijit V. Banerjee, Esther Duflo
  - ["Guns, Germs, and Steel: The Fates of Human Societies"](https://www.amazon.ca/Guns-Germs-Steel-Fates-Societies/dp/0393354326/ref=sr_1_1?crid=1S10L3Y0VKB61&keywords=guns%2C+germs%2C+and+steel+the+fates+of+human+societies&qid=1691011228&s=books&sprefix=guns+%2Cstripbooks%2C172&sr=1-1) by Jared Diamond
