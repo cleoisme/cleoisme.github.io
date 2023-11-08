@@ -1,29 +1,34 @@
 {{ define "main" }}
-<div class="archive {{ with .Site.Params.doNotLoadAnimations }} {{ else }} animated fadeInDown {{ end }}">
-  <div>  
+<div
+  class="archive {{ with .Site.Params.doNotLoadAnimations }} {{ else }} animated fadeInDown {{ end }}"
+>
+  <div>
     <h1>{{ .Title }}</h1>
-    <div class="post__footer" style="font-size: smaller;">  
+    <!-- <div class="post__footer" style="font-size: smaller;">  
       <p> {{.Description}} </p>
-    </div>
+    </div> -->
   </div>
   {{ if eq .Section "resources" }}
-  <div class="contentContainer"> {{.Content}}</div>
-  {{ end }}
-  {{ range (sort .Pages "Params.startDate").Reverse}}
+  <div class="contentContainer">{{.Content}}</div>
+  {{ end }} {{ range (sort .Pages "Params.startDate").Reverse}}
   <ul class="archive__list">
     <li class="archive__list-item">
-      <strong><a class="archive__list-title" href="{{ .Params.url }}" target="_blank">{{ .Title }}</a></strong>
+      <strong
+        ><a class="archive__list-title" href="{{ .Params.url }}" target="_blank"
+          >{{ .Title }}</a
+        ></strong
+      >
       <div class="archive__list-date">
-          {{ printf "%s - %s" ( .Params.startDate) ( .Params.endDate) }}
+        {{ printf "%s - %s" ( .Params.startDate) ( .Params.endDate) }}
       </div>
     </li>
     {{ if eq .Section "education" }}
-    <div> {{.Params.degree}}, {{.Params.specialization}}</div>
+    <div>{{.Params.degree}}, {{.Params.specialization}}</div>
     {{ else if eq .Section "experience" }}
-    <div> {{.Params.location}}</div>
-    <div> {{.Params.jobTitle}} · {{.Params.jobType}}</div>
+    <div>{{.Params.location}}</div>
+    <div>{{.Params.jobTitle}} · {{.Params.jobType}}</div>
     {{ end }}
-    <div class="contentContainer"> {{.Content}}</div>
+    <div class="contentContainer">{{.Content}}</div>
   </ul>
   {{ end }}
 </div>
