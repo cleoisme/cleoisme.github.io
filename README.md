@@ -32,9 +32,11 @@ This website was built using the following technologies:
 
 ## Planning ahead
 
-- Milestone 1: Static web
+- Milestone 1: Static Web Development
+  - Implement a web scraping function (a serverless one on AWS maybe?) to scrape raw data from cleoisme.github.io every quarter, clean the data and then save the data to a "local" JSON file.
+  - Update the Function that come up with the Word Cloud to read from the "local" JSON file.
 - Milestone 2: Database Design and Authentication Setup
-- Milestone 3: Content Management System and Authentication Setup
+- Milestone 3: Content Management System and Authentication Connection
 - Milestone 4: Frontend and Backend Integration
 - Milestone 5: Deployment and security
   
