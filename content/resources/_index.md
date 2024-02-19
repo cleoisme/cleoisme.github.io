@@ -39,7 +39,7 @@ This section focuses on job search related topics, including resume editing, the
     - System Design:
       - [Grokking Modern System Design Interview](https://www.educative.io/courses/grokking-modern-system-design-interview-for-engineers-managers)
       - [System Design Interview](https://www.amazon.ca/System-Design-Interview-insiders-guide/dp/B08B35X2ND/ref=asc_df_B08B35X2ND/?tag=googleshopc0c-20&linkCode=df0&hvadid=578824565430&hvpos=&hvnetw=g&hvrand=13769029299970415292&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9001561&hvtargid=pla-1041143569357&psc=1) by Alex Xu
-      - [Designing Data-Intensive Applications] by Martin Kleppmann
+      - [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/) by Martin Kleppmann
     - Others:
       - [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
       - [Pramp](https://www.pramp.com/#/)
