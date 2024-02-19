@@ -12,4 +12,4 @@ draft: false
 tags: ["education"]
 ---
 - Activities and societies: GHC23
-- cGPA: 4/4.33
+- cGPA: 3.8/4.33
