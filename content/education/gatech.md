@@ -8,7 +8,7 @@ endDate: "Present"
 specialization: "Machine Learning"
 degree: "Master of Computer Science - MSc."
 
-draft: false
+draft: true
 tags: ["education"]
 ---
 
