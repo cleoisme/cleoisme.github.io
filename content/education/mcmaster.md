@@ -13,4 +13,3 @@ tags: ["education"]
 ---
 
 - Activities and societies: Summer Camp
-- cGPA: N/A
