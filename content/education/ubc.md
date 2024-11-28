@@ -13,4 +13,3 @@ tags: ["education"]
 ---
 
 - Activities and societies: nwHacks 2018, UBC Work-learn Program
-- cGPA: 2.67/4.33
